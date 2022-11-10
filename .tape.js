@@ -9,7 +9,7 @@ module.exports = {
     {
       source: 'body { color: rgba(0, 0, 0, 0); }',
       args: true,
-      warnings: 1
+      warnings: 1 // it should throw error
     },
     // test the # of warnings
     {
