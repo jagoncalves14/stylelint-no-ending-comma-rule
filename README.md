@@ -29,7 +29,7 @@ After applying this rule, Stylelint will declare that ending `,` as an error. If
 
 ## Usage
 
-Add it to your stylelint config `plugins` array, then add `"no-ending-comma-rule"` to your rules,
+Add `no-ending-comma-rule` to your stylelint config `plugins` array, then add `"jagoncalves14/no-ending-comma-rule"` to your rules,
 specifying the property for which you want to check the usage of variable.
 
 Like so:
@@ -42,7 +42,7 @@ Like so:
   ],
   "rules": {
     // ...
-    "stylelint-no-ending-comma-rule": true,
+    "jagoncalves14/stylelint-no-ending-comma-rule": true,
     // ...
   }
 }

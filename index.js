@@ -1,7 +1,7 @@
 const stylelint = require('stylelint')
 
 const { report, ruleMessages, validateOptions } = stylelint.utils
-const ruleName = 'stylelint-no-ending-comma-rule'
+const ruleName = 'jagoncalves14/stylelint-no-ending-comma-rule'
 const messages = ruleMessages(ruleName, {
   expected: () => 'Delete ending `,`',
 })
