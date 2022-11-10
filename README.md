@@ -1,6 +1,6 @@
-# stylelint-no-ending-comma
+# stylelint-no-ending-comma-rule
 
-A [stylelint](https://github.com/stylelint/stylelint) plugin that checks if the CSS rules end with a comma.
+A [Stylelint](https://github.com/stylelint/stylelint) plugin that checks CSS property values ending with a comma.
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install stylelint-no-ending-comma-rule
 
 ## Details
 
-Stylelint is allowing values ending with `,`. Example below:
+Stylelint is allowing CSS property values ending with `,`. Example below:
 
 ```scss
 .foo {
