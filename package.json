@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-no-ending-comma-rule",
+  "version": "1.0.0",
+  "description": "A Stylelint custom rule that does not allow CSS values ending with a comma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagoncalves14/stylelint-no-ending-comma-rule.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "value",
+    "scss",
+    "comma",
+    "ending"
+  ],
+  "author": "jagoncalves14 <joaoandretgoncalves@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jagoncalves14/stylelint-no-ending-comma-rule/issues"
+  },
+  "homepage": "https://github.com/jagoncalves14/stylelint-no-ending-comma-rule",
+  "devDependencies": {
+    "stylelint-test-rule-tape": "^0.2.0",
+    "tape": "^5.6.1",
+    "stylelint": "^14.14.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.14.0"
+  }
+}
