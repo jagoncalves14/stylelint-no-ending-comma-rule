@@ -4,7 +4,6 @@
   "description": "A Stylelint custom rule that does not allow CSS values ending with a comma.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "husky install",
     "test": "stylelint-tape"
   },
   "repository": {
