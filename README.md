@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  A [Stylelint](https://github.com/stylelint/stylelint) plugin that checks CSS property values ending with a comma.
+  A <a href="https://github.com/stylelint/stylelint">Stylelint</a> plugin that checks CSS property values ending with a comma.
 </h3>
 
 <p align="center">
