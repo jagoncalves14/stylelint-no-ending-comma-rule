@@ -11,6 +11,11 @@ module.exports = {
       args: true,
       warnings: 0
     },
+    {
+      source: '.should-make-script-fail { color: rgba(0, 0, 0, 0); }',
+      args: true,
+      warnings: 1 // it should throw error
+    },
     // test the # of warnings
     {
       source: 'body { top: 0,; }',
