@@ -1,14 +1,13 @@
 {
   "name": "stylelint-no-ending-comma-rule",
-  "version": "1.0.2",
   "description": "A Stylelint custom rule that does not allow CSS values ending with a comma.",
+  "version": "0.0.0-development",
+  "author": "jagoncalves14 <joaoandretgoncalves@gmail.com>",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "stylelint-tape"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jagoncalves14/stylelint-no-ending-comma-rule.git"
+    "url": "https://github.com/jagoncalves14/stylelint-no-ending-comma-rule.git"
   },
   "keywords": [
     "stylelint",
@@ -19,18 +18,29 @@
     "comma",
     "ending"
   ],
-  "author": "jagoncalves14 <joaoandretgoncalves@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jagoncalves14/stylelint-no-ending-comma-rule/issues"
   },
   "homepage": "https://github.com/jagoncalves14/stylelint-no-ending-comma-rule",
+  "scripts": {
+    "test": "stylelint-tape",
+    "commit": "git-cz",
+    "acp": "git add . && npm run commit && git push",
+    "semantic-release": "semantic-release --branches main"
+  },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.2",
+    "semantic-release": "^19.0.5",
     "stylelint": "^14.14.0",
     "stylelint-tape": "^3.0.0"
   },
   "peerDependencies": {
     "stylelint": "^14.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
